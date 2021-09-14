@@ -21,7 +21,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'awesome_print', '~> 1.2'
   gem.add_dependency 'bunny', '~> 1.2.1'
 
-  gem.add_dependency 'json', '~> 2.3.0'
+  gem.add_dependency 'json', '>= 2.3.0'
   gem.add_dependency 'thread'
 
 end
